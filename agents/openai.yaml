@@ -1,0 +1,6 @@
+interface:
+  display_name: "学生作文点评与修改"
+  short_description: "读取作文并确认要求，按固定模板生成点评与修改稿 Word，核验字数和排版"
+  default_prompt: "使用 $student-essay-review，按作文工作流处理这篇作文。"
+policy:
+  allow_implicit_invocation: true
